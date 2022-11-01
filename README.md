@@ -1,6 +1,6 @@
 # rehype-starry-night-copy-collapse
 
-Rehype plugin to copy and collapse code blocks
+Rehype [Starry Night](https://github.com/wooorm/starry-night) syntax highlighting plugin with "show more"/"show less" and "copy" buttons.
 
 ![](screenshot.png)
 

@@ -2,7 +2,7 @@
   "name": "rehype-starry-night-copy-collapse",
   "type": "module",
   "version": "1.0.1",
-  "description": "Rehype Starry Night syntax highlighter with \"show more\"/\"show less\" and \"copy\" buttons",
+  "description": "Rehype Starry Night syntax highlighting plugin with \"show more\"/\"show less\" and \"copy\" buttons",
   "main": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
