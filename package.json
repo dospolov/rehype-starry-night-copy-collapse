@@ -1,0 +1,31 @@
+{
+  "name": "rehype-starry-night-copy-collapse",
+  "version": "1.0.0",
+  "description": "Rehype Starry Night syntax highlighter with \"show more\"/\"show less\" and \"copy\" buttons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marat Dospolov <marat.dospolov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dospolov/rehype-starry-night-copy-collapse/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dospolov/rehype-starry-night-copy-collapse.git"
+  },
+  "homepage": "https://github.com/dospolov/rehype-starry-night-copy-collapse#readme",
+  "keywords": [
+    "rehype",
+    "rehype-plugin",
+    "rehype-transform",
+    "rehype-ast",
+    "starry-night"
+  ],
+  "dependencies": {
+    "@wooorm/starry-night": "^1.3.1",
+    "hast-util-to-string": "^2.0.0",
+    "unist-util-visit": "^4.1.1"
+  }
+}
