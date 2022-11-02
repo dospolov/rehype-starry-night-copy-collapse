@@ -66,7 +66,8 @@ export default defineConfig({
   right: 0;
   z-index: 300;
   cursor: pointer;
-  background-color: #222222;
+  background-color: #6a6a6abb;
+  color: #fff;
   padding: 7px 10px;
   border-radius: 8px;
   margin-bottom: 7px;
@@ -82,7 +83,8 @@ export default defineConfig({
   right: 0;
   z-index: 300;
   cursor: pointer;
-  background-color: #222222;
+  background-color: #6a6a6abb;
+  color: #fff;
   padding: 7px 10px;
   border-radius: 8px;
   margin-top: 7px;

@@ -1,7 +1,7 @@
 {
   "name": "rehype-starry-night-copy-collapse",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Rehype Starry Night syntax highlighting plugin with \"show more\"/\"show less\" and \"copy\" buttons",
   "main": "index.mjs",
   "scripts": {
