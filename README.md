@@ -35,6 +35,10 @@ export default defineConfig({
 
 ### Adding global styles
 
+1. Add (Starry Night CSS)[https://github.com/wooorm/starry-night#css] to your project
+
+````bash
+
 ```css
 /* HIGHLIGHT GENERAL */
 .highlight {
@@ -94,7 +98,7 @@ export default defineConfig({
 .highlight:hover .source-copy {
   display: inline;
 }
-```
+````
 
 ## License
 
