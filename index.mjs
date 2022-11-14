@@ -152,9 +152,11 @@ function getCopyBtn() {
     const source =
       e.target.parentElement.querySelector(".source-raw").innerHTML;
     navigator.clipboard.writeText(source).then(() => {
-      e.target.innerHTML = "✅ Copied!";
+      e.target.classList.add("copied");
+      e.target.innerHTML = "Copied";
       setTimeout(() => {
-        e.target.innerHTML = "📋 Copy";
+        e.target.classList.remove("copied");
+        e.target.innerHTML = "Copy";
       }, 2000);
     });
 
@@ -168,7 +170,7 @@ function getCopyBtn() {
       className: ["source-copy"],
       onClick: `${handleCopy.toString()}; handleCopy(arguments[0]); return false;`,
     },
-    children: [{ type: "text", value: "📋 Copy" }],
+    children: [{ type: "text", value: "Copy" }],
   };
 }
 
